@@ -43,6 +43,17 @@
             "Theme"
           ],
           "_name": "slider",
+          "_styles": {
+            "P": {
+              "color": "#fac51c",
+              "font-size": "60px",
+              "text-align": "center"
+            },
+            "H2": {
+              "text-align": "center",
+              "font-size": "48px"
+            }
+          },
           "_params": {
             "autoplay": true,
             "paddingTop": 3,
@@ -126,18 +137,7 @@
             "showBullets": true
           },
           "_anchor": "slider-4",
-          "articleLayout": false,
-          "_styles": {
-            "P": {
-              "color": "#fac51c",
-              "font-size": "60px",
-              "text-align": "center"
-            },
-            "H2": {
-              "text-align": "center",
-              "font-size": "48px"
-            }
-          }
+          "articleLayout": false
         },
         {
           "_styles": {
@@ -672,6 +672,10 @@
           "_params": {
             "paddingTop": 3,
             "paddingBottom": 3,
+            "count": 3,
+            "showImages": false,
+            "showName": true,
+            "showBio": false,
             "bgImageRadio": true,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
@@ -681,11 +685,7 @@
             "overlayOpacity": 0.5,
             "overlayColor": "#222",
             "showTitle": true,
-            "showSubtitle": false,
-            "count": 3,
-            "showImages": false,
-            "showName": true,
-            "showBio": false
+            "showSubtitle": false
           },
           "title": "About 3Dezigner...",
           "subtitle": "Shape your future web project with sharp design and refine coded functions."
@@ -721,6 +721,11 @@
             "Theme"
           ],
           "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            }
+          },
           "_anchor": "form1-7",
           "_params": {
             "labelsColor": "#232323",
@@ -766,18 +771,25 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>",
-          "_styles": {
-            ".form-control-label": {
-              "color": "#232323"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "contacts2",
+          "_styles": {
+            "P": {
+              "font-size": "16px",
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
+              "text-align": "center",
+              "color": "#f7da64"
+            },
+            "STRONG": {
+              "font-size": "14px"
+            }
+          },
           "_anchor": "contacts2-8",
           "_params": {
             "paddingTop": 3,
@@ -798,19 +810,7 @@
             }
           },
           "text1": "<strong>Address</strong><br><strong><br></strong>No. 267 &nbsp;2/A, Polhena Road,Walpola,Ragama.<br><br>\n<strong>Contacts</strong><br>\nEmail: yasithask@gmail.com<br>\nPhone: 0777 075 074<br><br>",
-          "text2": "<ul></ul>",
-          "_styles": {
-            "P": {
-              "font-size": "16px",
-              "font-family": "'Slabo 27px', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
-              "text-align": "center",
-              "color": "#f7da64"
-            },
-            "STRONG": {
-              "font-size": "14px"
-            }
-          }
+          "text2": "<ul></ul>"
         }
       ]
     }
